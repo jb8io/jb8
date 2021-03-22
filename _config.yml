@@ -1,8 +1,8 @@
-title: Hamilton
-description: A minimal and beautiful Jekyll theme best for writing and note-taking.
-author: Shangzhi Huang
-avatar: /logo.png
-email: ngzhio@gmail.com
+title: Jake
+description: kakesuperstar
+author: Jacob Boylan
+avatar: https://cdn.britannica.com/99/38699-050-5BC18587/Grigory-Yefimovich-Rasputin.jpg
+email: jacobboylan8@gmail.com
 
 plugins:
   - jekyll-seo-tag
