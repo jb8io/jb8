@@ -5,10 +5,15 @@ avatar: https://cdn.britannica.com/99/38699-050-5BC18587/Grigory-Yefimovich-Rasp
 email: jacobboylan8@gmail.com
 
 plugins:
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
+  jekyll-coffeescript
+  jekyll-default-layout
+  jekyll-gist
+  jekyll-github-metadata
+  jekyll-optional-front-matter
+  jekyll-paginate
+  jekyll-readme-index
+  jekyll-titles-from-headings
+  jekyll-relative-links
 
 paginate: 10
 
