@@ -23,7 +23,7 @@ paginate: 10
 # Jekyll
 # ======
 exclude:
-  - scripts/
+  - scripts
   - README.md
   - jekyll-theme-hamilton.gemspec
 
