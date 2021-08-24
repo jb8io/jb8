@@ -1,21 +1,19 @@
 ---
 layout: page
-title: "A bit about me \U0001F600"
+title: About Me
 permalink: /about/
 published: true
 ---
-Enter!
+Bienvenidos!
 
-My name is Jake and I study cyber security at Kennesaw State University. I am nearing the end of my time in college and plan on pursuing a masters in the field once I graduate. I am currently studying for the [CompTIA Security+](https://www.comptia.org/certifications/security) certification.
+My name is Jake and I graduated from Kennesaw State University with a bachelors degree in Cyber Security. I am currently back in school at KSU pursuing a masters degree in IT. I am currently studying for the [AWS Certified Cloud Practioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) certification and will be looking to earn the [CompTIA Security+](https://www.comptia.org/certifications/security) certification next.
 
-### Goals
-
-This blog is where I document my growth and learning expierences in my spare time. Anything infosec related will be posted on this site.
-
-### Certifications
-
-Coming soon////
 
 ### My email:
 
 [jacobboylan8@gmail.com](mailto:jacobboylan8@gmail.com)
+
+
+### My Resume:
+
+
