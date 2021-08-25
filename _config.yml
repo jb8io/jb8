@@ -19,8 +19,6 @@ google_analytics: UA-163113883-1
 
 disqus: ngzhio
 
-include:
-  - _pages
 
 exclude:
   - scripts/
