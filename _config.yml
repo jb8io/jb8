@@ -49,13 +49,13 @@ remote_theme: ngzhio/jekyll-theme-hamilton
 
 # Jekyll SEO Tag (Optional)
 # =========================
-twitter:
-  username: ngzhio
-  card: summary
-logo: avatar.jpg
-social:
-  name: Shangzhi Huang
-  links:
+#twitter:
+  #username: ngzhio
+ # card: summary
+#logo: avatar.jpg
+#social:
+ # name: Shangzhi Huang
+  #links:
     - https://twitter.com/ngzhio
     - https://github.com/ngzhio
 lang: en
