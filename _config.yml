@@ -32,7 +32,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Shangzhi Huang"
+      author: "Jacob Boylan"
       image: "avatar.jpg"
       share: true
   - scope:
@@ -40,7 +40,7 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-      author: "Shangzhi Huang"
+      author: "Jacob Boylan"
       image: "avatar.jpg"
 
 # Jekyll Remote Theme
@@ -50,7 +50,7 @@ remote_theme: ngzhio/jekyll-theme-hamilton
 # Jekyll SEO Tag (Optional)
 # =========================
 twitter:
-  username: ngzhio
+  username: 
   card: summary
 logo: avatar.jpg
 social:
