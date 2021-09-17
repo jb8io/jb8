@@ -17,9 +17,6 @@ plugins:
 
 google_analytics: UA-163113883-1
 
-disqus: ngzhio
-
-
 exclude:
   - scripts/
   - README.md
