@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Docs
+title: Projects
 permalink: /docs/
+published: true
 ---
 
 A documentation page.
