@@ -1,7 +1,3 @@
 ###
 
 ## Please be my projects
-
-
-
-
