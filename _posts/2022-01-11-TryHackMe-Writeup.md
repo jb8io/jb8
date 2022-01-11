@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TryHackMe Writeup
+title: 'TryHackMe Writeup #1: RootMe CTF'
 permalink: /posts/1
 published: true
 ---
