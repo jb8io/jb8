@@ -1,6 +1,7 @@
 ---
+layout: post
+title: TryHackMe Writeup #1: RootMe CTF
+permalink: /posts/1
 published: true
 ---
-## Rootme CTF
-
-ok lets go
+lets check this one out
