@@ -16,5 +16,3 @@ My name is Jake and I graduated from Kennesaw State University with a bachelors 
 ### My Email:
 
 [jacobboylan8@gmail.com](mailto:jacobboylan8@gmail.com)
-
-
