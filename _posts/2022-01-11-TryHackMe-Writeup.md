@@ -30,3 +30,24 @@ From the scan, I was able to see the version of Apache running was Apache **2.4.
 Gobuster photo
 
 The scan showed 9 different directories found on the machine. The final question in the reconnaisance section asked what the hidden directory is. This directory is the **/panel** directory.
+
+## Getting a shell
+
+There is not a whole lot of guidance in this section. There was only one question that needed to be answered.
+
+Question photo
+
+To start, I tried to access the hidden directory by reaching it through a browser. Doing so, I found a page title HackIt.
+
+Page found photo
+
+The page featured a section to upload a file to. Unsure why this was featured or what to do with it, I tried uploading a file. This did nothing but provide me with a message saying the file upload was successful in what I believe to be Portuguese. 
+
+Portuguese photo
+
+Unsure what to do next, I checked the hints provided on TryHackMe.
+
+Hint Photos
+
+
+
