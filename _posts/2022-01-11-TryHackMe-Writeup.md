@@ -67,6 +67,48 @@ listener photo
 
 Then, I ran the php reverse shell script using the curl command.
 
+Curl photo
+
+After running this, I saw that there is a listener on my connection in the terminal.
+
+listener.2 photo
+
+This means the php reverse shell worked successfully, and I recieved access to a shell! Now all I needed to do was find the flag to finish this section. Considering user.txt was given to me in the original question, I searched for that file first to see if I can find the flag there. I searched using the find command, and was hit with countless error messages. Then, I searched excluding error messages and was able to find the file.
+
+searchwithout error photo
+
+Boom! I was able to find the file, now all that is left to do is find the flag and move on to the next section. 
+
+I was unable to access the file using nano, so I used cat to try and get the contents of the file and was able find the flag. 
+
+flag.1 photo
+
+## Privilege Escalation
+
+After accessing the shell, all there was left to do is find a way to escalate my priveleges. Before doing this, there is one more question to solve. The CTF wanted me to search for files with SUID permissions, meaning files that are able to be run as if I was the file owner.  We can search for these files by using the find command again.
+
+suid search photo
+
+A plethora of files showed up after putting in this search, but which one seemed **weird**? That file would be the python file, or /user/bin/python. This file should not be executable with SUID permissions because of how much harmful stuff can be done with this command. 
+Finally, I reached the point where all I need to do is escalate my privilege to gain root access. To do so, I enlisted the help of [GTFObins](https://gtfobins.github.io/). This site has a list of different binaries to help bypass systems and escalate privileges. After searching python on the GTFObins website, I was able to find it.
+
+pyandsuid photo
+
+Following finding this, I was able to run the command given on the website with the python file. After running the command on the python file, I was able to gain root access!
+
+gained root photo
+
+Now that I escalated my privileges to root access, all there was left to do was find the root.txt file and obtain the final flag. To do so, I used to find command one last time and was able to find the file, which held the last flag of the CTF.
+
+finalflag photo
+
+finishing CTF photo
+
+
+
+
+
+
 
 
 
