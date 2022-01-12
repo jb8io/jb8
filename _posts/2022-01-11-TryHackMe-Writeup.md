@@ -49,5 +49,24 @@ Unsure what to do next, I checked the hints provided on TryHackMe.
 
 Hint Photos
 
+[File upload bypass](https://vulp3cula.gitbook.io/hackers-grimoire/exploitation/web-application/file-upload-bypass) is done on websites with file upload mechanisms like this one. Through [php-reverse-shell](https://pentestmonkey.net/tools/web-shells/php-reverse-shell), I can upload a file to a site similar to this one, and access via the appropriate URL in browser. So that is what would be done here. I realized that the php-reverse-shell script needed to be changed in order to work properly in this situation, so I changed it accordingly. The IP and port both needed to be changed in order for this to work properly.
+
+PHP photo
+
+After trying to upload the file to the website, it was denied. THe website said that php files were not excecpted, in Portuguese again.
+
+No php photo
+
+Luckily, there was a workaround. The extension of the script can be modified to trick the machine and stil get the executable to run. Changing the extension of the script to php5 was enough to get the file uploaded. As can be seen here the file is in the uploads section of the website.
+
+upload screencap
+
+Next, I needed to start a listener on the port I specified in the reverse php file.
+
+listener photo
+
+Then, I ran the php reverse shell script using the curl command.
+
+
 
 
