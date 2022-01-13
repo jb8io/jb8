@@ -15,8 +15,6 @@ This ones pretty self explanatory. Let's move on.
 
 ## Reconnaisance
 
-Here we go..
-
 Firstly, it asks us to scan how many ports are open on the machine. A simple NMAP will suffice.
 
 ![](https://i.imgur.com/kEcELXC.jpg)
