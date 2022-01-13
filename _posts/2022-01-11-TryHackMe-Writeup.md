@@ -47,7 +47,7 @@ Unsure what to do next, I checked the hints provided on TryHackMe.
 
 ![](https://i.imgur.com/VzFwyX3.jpg)
 
-After trying to upload the file to the website, it was denied. THe website said that php files were not excecpted, in Portuguese again.
+After trying to upload the file to the website, it was denied. The website said that php files were not excecpted, in Portuguese again.
 
 ![](https://i.imgur.com/cpLnUub.jpg)
 
