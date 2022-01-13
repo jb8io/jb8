@@ -43,7 +43,7 @@ To start, I tried to access the hidden directory by reaching it through a browse
 
 Unsure what to do next, I checked the hints provided on TryHackMe.
 
-[](https://i.imgur.com/IDScB2W.jpg)
+![](https://i.imgur.com/IDScB2W.jpg)
 
 [File upload bypass](https://vulp3cula.gitbook.io/hackers-grimoire/exploitation/web-application/file-upload-bypass) is done on websites with file upload mechanisms like this one. Through [php-reverse-shell](https://pentestmonkey.net/tools/web-shells/php-reverse-shell), I can upload a file to a site similar to this one, and access via the appropriate URL in browser. So that is what would be done here. I realized that the php-reverse-shell script needed to be changed in order to work properly in this situation, so I changed it accordingly. The IP and port both needed to be changed in order for this to work properly.  
 
